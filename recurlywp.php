@@ -23,9 +23,9 @@ define( 'RECURLYWP_URL', plugin_dir_url( __FILE__ ) );
 define( 'RECURLYWP_DIR', plugin_dir_path( __FILE__ ) );
 define( 'RECURLYWP_BASENAME', plugin_basename( __FILE__ ) );
 
-define( 'RECURLYWP_DIR_INC', trailingslashit ( PRB_RECURLY_DIR . 'inc' ) );
-define( 'RECURLYWP_DIR_LIB', trailingslashit ( PRB_RECURLY_DIR . 'lib' ) );
-define( 'RECURLYWP_DIR_OPTIONS', trailingslashit ( PRB_RECURLY_DIR . 'options' ) );
+define( 'RECURLYWP_DIR_INC', trailingslashit ( RECURLYWP_DIR . 'inc' ) );
+define( 'RECURLYWP_DIR_LIB', trailingslashit ( RECURLYWP_DIR . 'lib' ) );
+define( 'RECURLYWP_DIR_OPTIONS', trailingslashit ( RECURLYWP_DIR . 'options' ) );
 
 // Required Files
 

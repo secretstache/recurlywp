@@ -1,0 +1,3 @@
+[submodule "lib/recurly"]
+	path = lib/recurly
+	url = https://github.com/recurly/recurly-client-php

@@ -59,20 +59,8 @@ function recurlywp_settings_init() {
         ]
     );
 
-        // Field -> Recurly Subdomain
-    // add_settings_field(
-    //     'recurlywp_setting_plan_code_query_var',
-    //     __('URL query variable: Plan Code', 'recurlywp'),
-    //     'recurlywp_setting_field_text',
-    //     'recurlywp',
-    //     'recurlywp_section_pap',
-    //     [
-    //         'label_for'         => 'recurlywp_setting_plan_code_query_var',
-    //         'description'       => 'Query variable key for plan code in Confirmation page redirect URL.',
-    //         'default_value'     => 'plan'
-    //     ]
-    // );
 }
+
 add_action('admin_init', 'recurlywp_settings_init');
 
 // Empty section callback
